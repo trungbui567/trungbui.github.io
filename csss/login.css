@@ -1,0 +1,121 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: black;
+    font-family: 'Open Sans', cursive;
+}
+header{
+    background-color: grey;
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+    visibility: ;
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+.main-nav{
+    float: left;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    color: cyan;
+    font-weight: 100;
+}
+.main-content-header{
+    width: 1180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-top: 3px solid white;
+    margin-left: 0px;
+}
+.index_h1{
+    color:#fff;
+    word-spacing: 5px;
+    font-size: 140%;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.login_heading{
+    color:#fff;
+    margin-left: 600px;
+    font-size: 3rem;
+    color: yellow;
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-bottom: 2rem;   
+}
+.login-content-header{
+    width: 1570px;
+    border-top: 2px solid #fff;
+}
+.form1{
+    margin-left:450px;
+    color:white;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.form1 th{
+    color: white;
+	font-size: 40px;
+}
+.field1{
+    height: 2rem;
+    width: 17rem;
+    margin-bottom: 1.5rem;
+    background-color: rgb(238, 229, 229);
+}
+.field2{
+    height: 2rem;
+    width: 20rem;
+}
+.table{
+    padding-top: 20px;
+    padding-left:50px;
+    margin-top: 50px;
+}
+.submit{
+    width: 150px;
+    height: 40px;
+    background: rgb(199, 199, 199);
+    border: 1px solid black;
+    color: black;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.submit:hover{
+    background: #1ebba3;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
